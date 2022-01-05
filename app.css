@@ -1,0 +1,161 @@
+html {
+    font-family: Outfit, sans-serif;
+}
+
+body {
+    background-color: hsl(217, 54%, 11%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.panel {
+    background-color: hsl(216, 50%, 16%);
+    width: 20%;
+    border-radius: 10px;
+}
+
+.coin-img {
+    text-align: center;
+    margin: 0;
+    position: relative;
+}
+
+.content {
+    margin: 0 4%;
+    font-size: 18px;
+}
+
+.panel .coin-img img {
+    width: 90%;
+    margin: 4% 4% 0;
+    display: border-box;
+}
+
+.coin-name {
+    color: hsl(0, 0%, 100%);
+    font-weight: 600;
+}
+
+.message {
+    color: hsl(215, 51%, 70%);
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.info {
+    border-bottom: 1px solid hsl(215, 32%, 27%);
+    padding-bottom: 10px;
+}
+
+.value_ {
+    display: inline-block;
+}
+
+.time_ {
+    float: right;
+}
+
+.value,
+.time {
+    display: inline-block;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.creator_ a {
+    text-decoration: none;
+    color: hsl(215, 51%, 70%);
+}
+
+.value {
+    color: hsl(178, 100%, 50%);
+    padding-left: 2px;
+}
+
+.icon {
+    height: 14px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.clock {
+    padding-right: 2px;
+    vertical-align: middle;
+}
+
+.time {
+    color: hsl(215, 51%, 70%);
+}
+
+.avatar {
+    height: 10%;
+    width: 10%;
+    margin: 5% 0;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.creator {
+    display: inline-block;
+    font-size: 12px;
+    font-weight: 300;
+    color: hsl(0, 0%, 100%);
+    padding-left: 5px;
+}
+
+.coin-name:hover {
+    cursor: pointer;
+    color: hsl(178, 100%, 50%);
+}
+
+.creator_ a:hover {
+    color: hsl(178, 100%, 50%);
+}
+
+.coin-img:hover {
+    cursor: pointer;
+}
+
+.attribution {
+    margin-top: 6rem;
+    color: hsl(0, 0%, 100%);
+    font-weight: 300;
+    font-size: 12px;
+}
+
+.attribution a {
+    color: hsl(215, 51%, 70%);
+    text-decoration: none;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    display: flex;
+    opacity: 0;
+    transition: opacity 0.40s ease-in-out;
+    background-color: rgba(0, 255, 247, 0.2);
+}
+
+.overlay img {
+    justify-self: center;
+    align-self: center;
+    transform: scale(0.2);
+}
+
+.overlay:hover {
+    opacity: 1;
+}
+
+@media (max-width:600px) {
+    .panel {
+        width: 90%;
+    }
+}
