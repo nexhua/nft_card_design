@@ -26,7 +26,7 @@ Users should be able to:
 
 ### Screenshot
 
-![Screenshot](images/ss.jpg?raw=true "Screenshot")
+![Screenshot](https://github.com/nexhua/nft_card_design/blob/main/images/ss.png "Screenshot")
 
 ### Links
 
